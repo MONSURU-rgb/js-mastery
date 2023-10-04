@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .body-text {
+    @apply !bg-gradient-to-r !from-green-800 !to-red-500 !bg-clip-text !font-bold;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

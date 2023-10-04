@@ -1,7 +1,7 @@
 import React from "react";
 
 function SettingsMainPage() {
-  return <div>SettingsMainPage</div>;
+  return <div className="body-text">SettingsMainPage</div>;
 }
 
 export default SettingsMainPage;
